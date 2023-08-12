@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <!--Styles-->
+        <link rel="stylesheet" href="assets/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <!--Fonts and Symbols-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fascinate"> <!--old name header-->
+    </head>
+    <body>
+
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary py-3 fixed-top">
+            <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <!--Navbar Links-->
+                <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>       
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Projects
+                    </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#project1">Stock Predictions</a></li>
+                    <li><a class="dropdown-item" href="#project2">CS Curriculum</a></li>
+                    <li><a class="dropdown-item" href="#project2">E-Commerce Site</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>  
+                </ul>
+            </div>
+            </div>  
+        </nav>
+
+        <!--Main Image-->
+        <header class="header">
+            <div class="main-image">
+                    <h1 class="title">ALISA KANGANIS</h1>
+                    <p class="subtitle">Software Engineer</p>
+
+                    <!--Shortcut-->
+                    <div class="shortcut-container">
+                    <div class="shortcut">
+                        <h3 class="project-list-title">Featured Projects</h3>
+                        <ul class="project-list">
+                            <li><a href="#project1">Stock Predictions</a></li>
+                            <li><a href="#project2">Computer Science Curriculum</a></li>
+                            <li><a href="#project3">E-Commerce Site</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </header> 
+
+        
+
+        <!--Project 1-->
+        <hr id="project1" class="line">
+        <h1 class="project-title"><a href="https://github.com/kanganisalisa/stockpredictor" target="_blank">Stock Predictions</a></h1>
+
+        <!--Project 2-->
+        <hr id="project2" class="line">
+        <h1 class="project-title">Computer Science Curriculum</h1>
+
+        <img class="website1" src="assets/imgs/technologeph.png">
+
+        <div class="paragraphs">
+        <p>
+            In Summer 2022, I was a computer science research assistant at Williams College. Along with three other undergraduates, I developed a portable 
+            and accessible computer science curriculum for children, called Technologeph. The curriculum content is on a website that we programmed. 
+            It is free to access and download our worksheets, activities, slideshows, and lesson plans. We created the curriculum 
+            because there is an absence of effective computer science programs for young students. Most existing curriculums lack cohesion, 
+            accessibility, and content.
+        </p>
+        <p>
+            Furthermore, computer science as a discipline and industry lacks diversity. Although technology occupations are among the 
+            fastest-growing careers (<a href="https://www.bls.gov/ooh/computer-and-information-technology/home.htm" class="link">Bureau of Labor Statistics</a>), 
+            only 19% of STEM graduates are 
+            women and just 24% of computing jobs are held by women 
+            (<a href="https://dataprot.net/statistics/women-in-tech-statistics/#:~:text=Women%20in%20tech%20statistics%20shed,gap%20in%20the%20technology%20business.&text=Only%2024%25%20of%20computing%20jobs,45%25%20higher%20rate%20than%20men" class="link">DataProt</a>).
+            This is due, in part, because gender stereotypes related to STEM ability emerge at a young 
+            age (<a href="https://www.sciencedirect.com/science/article/pii/S0193397319300930" class="link">McGuire et al.</a>). 
+            These stereotypes are then enforced by imbalanced gender participation in schools and later in the 
+            workforce. My group and I stipulate that early exposure to computer science education can help strike down gender stereotypes 
+            and inspire more girls to pursue their STEM interests. Additionally, computer science education is obliquely available to high-income 
+            school districts with less diverse student populations. Our portable and free-to-access curriculum is intended to broaden
+            computer science accessibility to a more diverse group of students. 
+        </p>
+        <p style="margin-bottom: 0;">
+            While the curriculum teaches students how to program, it more importantly teaches them how to think like a programmer. 
+            Programmers employ computational thinking to solve problems efficiently. Computational thinking involves decomposing problems 
+            into smaller tasks, recognizing patterns, designing algorithms, and debugging and refining those algorithms. Whether or not a 
+            student decides to pursue a career in computer science, the logic and reasoning skills cultivated by computational thinking 
+            are invaluable. 
+        </p>
+        </div>
+
+        <div class="github">
+            <p>While the website is still being developed by new summer 2023 research assistants, the code for it can be viewed on my Github here<a href="https://github.com/kanganisalisa/CS-Curriculum" target="_blank" class="fa fa-github"></a></p> 
+        </div>
+
+        <!--Project 3-->
+        <hr id="project3" class="line">
+        <h1 class="project-title"><a href="#" target="_blank">E-Commerce Site</a></h1>
+
+
+        <footer>
+
+            <p class="copyright">&#xa9 2023 Alisa Kanganis</p>
+
+        </footer>
+        <script src="scripts/scroll.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </body>
+</html>

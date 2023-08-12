@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/form.css">
+        <link rel="stylesheet" href="styles/home.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <script src="../scripts/sidebar.js"></script>
+        <!--Contact Page Specific-->
+        <link rel="stylesheet" href="styles/contact.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+
+        <!--Links-->
+        <nav class="header-links">
+            <nav class="header-links-left">
+                <!--home, about-->
+                <a href="home.html" class="material-symbols-outlined" style="font-size: 2.5em;">Home</a> 
+                <a href="about.html" class="about">ABOUT</a> 
+            </nav>
+            <nav class="header-links-right">   
+                
+                <!--sidebar, projects-->
+                <nav id="sidebar-container">
+                    <ul id="mySidebar">
+                        <li class="side-link-close">
+                            <a onclick="close_sidebar();" id="close-sidebar">
+                                PROJECTS &nbsp 
+                                <i class="material-symbols-outlined" style="font-size: 1.2em;">Keyboard_Double_Arrow_Down</i>
+                            </a>
+                        </li>
+                        <li class="side-link">
+                            <a href = "project1.html">
+                                Technologeph
+                            </a>
+                        </li>
+                        <li class="side-link">
+                            <a href = "project2.html">
+                                Example Project 2
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <button onclick="open_sidebar();" class="open-sidebar">PROJECTS &nbsp &#9776 </button>
+
+                <!--resume, contact-->
+                <a href="files/Resume 2023.pdf" target="_blank">RESUME &nbsp<i class="material-symbols-outlined">Download</i></a>  
+                <a href="contact.html">CONTACT</a>
+            </nav>
+        </nav>
+
+        <div class = "space"></div>
+
+        <div class = "icons">  
+            <!-- Add font awesome icons -->
+            <a href="https://github.com/kanganisalisa" target="_blank" class="fa fa-github"></a>
+            <a href="https://www.linkedin.com/in/alisakanganis/" target="_blank" class="fa fa-linkedin"></a>
+            <a href="mailto:a.kanganis@gmail.com" target="_blank" class="fa fa-email"><i class="material-symbols-outlined" style="font-size: 5em">Mail</i></a>
+        </div>
+
+        <div class="words">
+            <p>
+                My preferred contact method is mail to akanganis@gmail.com
+            </p>
+        </div>
+      
+
+        <footer>
+
+            <p class="copyright">&#xa9 2023 Alisa Kanganis</p>
+            
+        </footer>
+    </body>
+</html>
